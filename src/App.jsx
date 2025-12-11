@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Add from "./components/Add";
 import Watchlist from "./components/Watchlist";
 import Watched from "./components/Wathched";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import ContextProvider from "./components/Context/GlobalContext";
 function App() {
   return (
